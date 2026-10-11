@@ -1,22 +1,21 @@
 #include <stdio.h>
 
 int main (){
-    float nota1, nota2, nota3, media;
+    float nota, somaNota = 0, media;
     int contAprov = 0, contRecup = 0, contReprov = 0;
     int resposta;
 
-    printf("===========Calculo=Situação=Escolar============");
+    printf("===========Calculo=Situação=Escolar============\n");
     do{
-        //Entrada das 3 Notas do Aluno
-        printf("\nDigite sua Primeira Nota: ");
-        scanf("%f", &nota1);
-        printf("Digite sua Segunda Nota: ");
-        scanf("%f", &nota2);
-        printf("Digite sua Terceira Nota: ");
-        scanf("%f", &nota3);
+        //Entrada das 3 Notas do Aluno e adicionando a nota digitada na variavel somaNota a cada loop
+        for (int i=1; i<=3; i++){
+            printf("Digite a %dº Nota: ", i);
+            scanf("%f", &nota);
+            somaNota += nota;
+        }
 
         //Calculo da média das Notas
-        media = (nota1+nota2+nota3)/3;
+        media = somaNota/3;
 
         //Verificação da Situação do Aluno
         if (media >=7){
