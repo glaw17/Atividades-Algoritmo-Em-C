@@ -40,4 +40,6 @@ int main (){
     printf("Alunos Aprovados: %d\n", contAprov);
     printf("Alunos em Recuperação: %d\n", contRecup);
     printf("Alunos Reprovados: %d", contReprov);
+
+    return 0;
 }
