@@ -23,4 +23,6 @@ int main (){
     //Transformei uma das variáveis em float para que a Media nao mostre um valor inteiro
     mediaPassos = (float)meta/horas;
     printf("Você deu %.2f passos por Hora!", mediaPassos);
+
+    return 0;
 }
