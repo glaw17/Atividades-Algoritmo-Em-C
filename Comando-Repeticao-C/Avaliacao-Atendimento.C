@@ -28,4 +28,5 @@ int main (){
     else{
        printf("Média de Avaliação dos últimos 10 clientes: %.2f", mediaAvaliacao); 
     }
+return 0;
 }
