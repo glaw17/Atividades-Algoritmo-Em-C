@@ -28,4 +28,5 @@ int main (){
     //Calculo da media geral de consumo dos 5 moradores e mostrando na tela
     mediaGeralConsumo = somaConsumo/5;
     printf("\nA média de consumo mensal geral é: %.2f", mediaGeralConsumo);
+    return 0;
 }
