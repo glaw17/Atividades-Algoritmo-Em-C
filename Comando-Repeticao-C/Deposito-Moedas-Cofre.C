@@ -38,4 +38,6 @@ int main (){
 
     //Mostra ao usuario seu saldo final
     printf("\nSaldo Final: %.2f", saldo);
+
+    return 0;
 }
