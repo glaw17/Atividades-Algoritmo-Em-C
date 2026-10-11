@@ -21,4 +21,6 @@ int main (){
     printf("============Resultado============\n");
     printf("Números Pares Digitados: %d\n", contadorPares);
     printf("Números Ímpares Digitados: %d", contadorImpares);
+
+    return 0;
 }
