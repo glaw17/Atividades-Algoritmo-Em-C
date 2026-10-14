@@ -30,14 +30,11 @@ int main (){
             printf("Saldo Atual: %.2f\n", saldo);
             break;
         case 0:
+            printf("\nSaldo Final: %.2f", saldo);
             break;
         default:
-            printf("Erro! Escolha uma das 4 opções!\n")
+            printf("Erro! Escolha uma das 4 opções!\n");
         }
     } while(resposta!=0);
-
-    //Mostra ao usuario seu saldo final
-    printf("\nSaldo Final: %.2f", saldo);
-
     return 0;
 }
