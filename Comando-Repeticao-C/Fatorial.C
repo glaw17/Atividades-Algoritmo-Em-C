@@ -26,7 +26,7 @@ int main(){
             resultado *= i;
         }
         //Quando terminar a operação mostra o resultado da fatoração na tela
-        printf("\n%d! = %d", numero, resultado);
+        printf("%d", resultado);
     }
     return 0;
 }
