@@ -3,6 +3,8 @@
 int main (){
     int passos, meta = 0, horas = 0;
     float mediaPassos;
+
+    printf("======== CONTADOR DE PASSOS ========\n");
     //Repete até que a Meta De Passos(10,000) seja atingida
     do{
         //Inserção de quantos passos o usúario deu
@@ -19,7 +21,7 @@ int main (){
         meta += passos;
     } while(meta < 10000);
 
-    printf("Meta Diária Atingida! Você alcançou em %d horas!\n", horas);
+    printf("\nMeta Diária Atingida! Você alcançou em %d horas!\n", horas);
     //Transformei uma das variáveis em float para que a Media nao mostre um valor inteiro
     mediaPassos = (float)meta/horas;
     printf("Você deu %.2f passos por Hora!", mediaPassos);
