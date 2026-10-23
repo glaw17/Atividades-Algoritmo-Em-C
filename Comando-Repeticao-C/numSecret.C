@@ -18,13 +18,13 @@ int main(){
         }
         //Se acertar o número, ele mostra na tela e sai do for
         else{
-            printf("Parabéns! Você acertou!");
+            printf("\nParabéns! Você acertou!");
             break;
         }
     }
     //Só apresenta a mensagem se o usuário tiver chegado na décima tentativa
     if (tentativas == 11){
-        printf("Números de Tentativas Esgotadas! O número secreto era: %d", NUM_SEC);
+        printf("\nNúmeros de Tentativas Esgotadas! O número secreto era: %d", NUM_SEC);
     }
     return 0;
 }
