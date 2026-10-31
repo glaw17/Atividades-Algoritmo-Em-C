@@ -1,13 +1,14 @@
+#include "minhaLib.h"
 //Fatorial
-int fatorial(int num){
-    if (num == 0){
+int fatorial(int num) {
+    if (num <= 1){
         return 1;
     }
-    return num*fatorial(num-1);
+    return num * fatorial(num - 1);
 }
 
-//Fibonacci
-int fibonnaci(int num){
+//Fibonnaci
+int fibonacci(int num){
     if(num==0){
         return 0;
     }
@@ -46,7 +47,7 @@ int ehpar(int numero){
 
 //POSITIVO NEGATIVO 
 int ehpositivo(int numero){
-    if (numero > 0){
+    if (numero >= 0){
         return 1;
     }
     else{
